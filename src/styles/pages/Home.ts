@@ -58,7 +58,7 @@ export const Presents = styled.main`
             border-radius: 12px;
             border: none;
             outline: none;
-            padding: 5px;
+            padding: 16px;
             font-size: 24px;
             width: 40%;
             display: flex;
@@ -69,7 +69,8 @@ export const Presents = styled.main`
             color: ${props => props.theme.colors.text};
             > svg {
                 fill: #fff;
-                height: 80%;
+                height: 40px;
+                width: 40px;
                 margin-right: 10px;
             }
         }
